@@ -1,0 +1,154 @@
+body.reg {
+    background-color: #2F2F2F;
+    text-align: center;
+    margin: 20px;
+    font-weight: lighter;
+}
+body.adv {
+    background-color: #2F2F2F;
+    margin: 20px;
+    font-size: 16px;
+}
+h1.adv {
+    color: rgb(252, 128, 128);
+    font-size: 22px;
+    font-weight: normal;
+    font-family: Arial;
+    justify-content: space-between;
+}
+hr {
+    border: 0.1px solid rgb(110, 110, 110);
+}
+div.header {
+    text-align: right;
+    display: block;
+    margin: 20px;
+    padding: 10px;
+}
+div.header a {
+    margin: 9px;
+    font-size: 18px;
+    color: white;
+}
+
+div.container {
+    text-align: center;
+    margin: 60px;
+    padding: 20px;
+}
+
+#placeholder {
+    /*top right bottom left*/
+    margin: 10px 15% 10px 15%;
+    border: 2px solid silver;
+    color:white;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 9px;
+    font-size: 18px;
+    width: 35%;
+    outline: none !important; /*to remove hightlight border textfield when entering input*/
+}
+#submit {
+    margin: 10px;
+    color:white;
+    background-color: #5e5e5e;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    width: auto;
+}
+.submitbtns {
+    text-align: center;
+}
+#advsubmit {
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    width: auto;
+    margin-left: 115px;
+    background-color: rgb(71, 133, 232);
+    color: white;
+}
+.submitbtn {
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    float: left;
+    width: 260px;
+}
+
+div.containeradv {
+    display: flex;
+}
+
+form.advsearch {
+    color: darkgrey;
+}
+
+.labelheading{
+    width: 180px;
+}
+.label {
+    width: 180px;
+}
+
+.todoheading {
+    width: 200px;
+    margin: 10px;
+}
+
+.advinput {
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    float: left;
+    width: 260px;
+}
+
+.advinputfrom {
+    width: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.advinputto {
+    width: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.advinputfieldfrom {
+    width: 100px;
+
+}
+.advinputfieldto {
+    width: 100px;
+}
+
+.advinputfield {
+    width: 260px;
+}
+.to {
+    width: 43.5px;
+    margin-left: 8px;
+    margin-right: 0px;
+}
+.range {
+    width: 260px;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+}
+
+#one {
+    display: flex;
+    align-items: center;
+}
+
+.todo {
+    width: 200px;
+    margin: 10px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advance Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="adv">
+        <div class="header">
+            <a href="index.html">Google Search</a>
+            <a href="imgsearch.html">Image Search</a>
+            <a href="advsearch.html">Advanced Search</a>
+        </div>
+        <h1 class="adv">Advanced Search</h1>
+        <hr>
+        <div class="containeradv">
+            <form action="https://www.google.com/search" class="advsearch">
+                <div id="one">
+                    <div class="labelheading">Find pages with...</div>
+                    <div class="advinput"></div>
+                    <div class="todoheading">To do this in the search box</div>
+                </div>
+                <div id="one">
+                    <div class="label">all these words:</div>
+                    <div class="advinput"><input type="text" class="advinputfield" name="as_q"></div>
+                    <div class="todo">Type the important words: tricolor rat terrier</div>
+                </div>
+                <div id="one">
+                    <div class="label">this exact word or phrase:</div>
+                    <div class="advinput"><input type="text" class="advinputfield" name="as_epq"></div>
+                    <div class="todo">Put exact words in quotes: "rat terrier"</div>
+                </div>
+                <div id="one">
+                    <div class="label">any of these words:</div>
+                    <div class="advinput"><input type="text" class="advinputfield" name="as_oq"></div>
+                    <div class="todo">Type OR between all the words you want: miniature OR standard</div>
+                </div>
+                <div id="one">
+                    <div class="label">none of these words:</div>
+                    <div class="advinput"><input type="text" class="advinputfield" name="as_eq"></div>
+                    <div class="todo">Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</div>
+                </div>
+                <!--Extra part-->
+                <div id="one">
+                    <div class="label">numbers ranging from</div>
+                    <div class="range">
+                        <div class="advinputfrom"><input type="text" class="advinputfieldfrom" name="as_nlo"></div>
+                        <div class="to">to</div>
+                        <div class="advinputto"><input type="text" class="advinputfieldto" name="as_nhi"></div>
+                    </div>
+                    <div class="todo">Put 2 periods between the numbers and add a unit of measure: 10..35 lb, $300..$500, 2010..2011</div>
+                </div>
+                <!---->
+                <div id="one">
+                    <div class="label"></div>
+                    <div class="submitbtn"><input type="submit" value="Advanced Search" id="advsubmit"></div>
+                    <div class="todo"></div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
+
+
+<!--
+    https://www.google.com/search?
+    as_q=
+    &
+    as_epq=
+    &
+    as_oq=
+    &
+    as_eq=
+    &
+    as_nlo=dfddsf
+    &
+    as_nhi=
+    &
+    lr=
+    &
+    cr=
+    &
+    as_qdr=all
+    &
+    as_sitesearch=
+    &
+    as_occt=any
+    &
+    safe=images
+    &
+    as_filetype=
+    &
+    tbs=
+-->
+
+
